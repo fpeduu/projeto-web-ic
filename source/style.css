@@ -76,18 +76,6 @@ body {
     border-radius: 50%;
 }
 
-#myphoto-detail {
-    width: 15.5rem;
-    height: 15.5rem;
-    border-radius: 50%;
-
-    z-index: -1;
-    margin-left: 27.2%;
-    position: absolute;
-
-    background-color: var(--purple);
-}
-
 h2 {
     font-size: 3.5rem;
 }
