@@ -21,7 +21,7 @@ body {
 
 #container {
     margin-top: 4rem;		
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -187,4 +187,134 @@ h3 {
 #contact #contact-links a:not( :hover ) {
     color: white;
     transition-duration: 0.3s;
+}
+
+@media (max-width: 1000px) {
+    .content-space {
+        width: 60rem;
+    }
+
+    #header-div header {
+        height: 7rem;
+    }
+
+    #header-logo {
+        height: 6rem;
+        margin: .5rem;
+    }
+
+    #header-links {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h1 span:hover {
+        font-size: 8rem;
+    }
+
+    h1 span:not( :hover ){
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 7rem !important;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #myphoto {
+        width: 30rem;
+    }
+
+    #aboutme p {
+        font-size: 3rem;
+    }
+
+    #aboutme #abilities .progress .progress-bar {
+        height: 2rem;
+    }
+
+    #abilities .progress h3 {
+        font-size: 2.5rem;
+    }
+
+    #contact #contact-links  {
+        margin-top: 8rem;
+    }
+
+    #contact #contact-links a {
+        text-decoration: none;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }    
+}
+
+@media (max-width: 1400) {
+    .content-space {
+        width: 70rem;
+    }
+
+    #header-div header {
+        height: 10rem;
+    }
+
+    #header-logo {
+        height: 6rem;
+        margin: .5rem;
+    }
+
+    #header-links {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    h1 span:hover {
+        font-size: 9rem;
+    }
+
+    h1 span:not( :hover ){
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 8rem !important;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    #myphoto {
+        width: 30rem;
+    }
+
+    #aboutme p {
+        font-size: 5rem;
+    }
+
+    #aboutme #abilities .progress .progress-bar {
+        height: 2.2rem;
+    }
+
+    #abilities .progress h3 {
+        font-size: 3rem;
+    }
+
+    #contact #contact-links  {
+        margin-top: 8rem;
+    }
+
+    #contact #contact-links a {
+        text-decoration: none;
+        font-size: 3.7rem;
+        font-weight: bold;
+    }    
 }
